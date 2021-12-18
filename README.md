@@ -38,10 +38,11 @@ After you fork this project, you want to change a few things first.
       `COPYING` and `COPYING.lesser`.
     - ...or for anything else, replace `LICENSE.txt` with your desired license. You do not have to
       credit me or anything, I don't care about that in this project.
-4. If you do not want the Google code style to be enforced:
-    - Change the `checkstyle.xml`.
+4. Set the license header in `.mvn/checkstyle/license-header-java-groovy-kotlin-scala.txt`.
+5. If you do not want the Google code style to be enforced:
+    - Change the `.mvn/checkstyle/checkstyle.xml` and `.mvn/checkstyle/suppressions.xml`.
     - Update the `.editorconfig` accordingly.
     - Reformat all files in your IDE.
-5. Update the `.github/workflows/commit.yml` to use the appropriate Java version, or replace it
-    with whatever you want to do.
-6. Replace this `README.md`.
+6. Update the `.github/workflows/commit.yml` to use the appropriate Java version, or replace it
+   with whatever you want to do.
+7. Replace this `README.md`.

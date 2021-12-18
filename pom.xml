@@ -74,15 +74,17 @@
               </goals>
               <configuration>
                 <!--suppress UnresolvedMavenProperty -->
-                <configLocation>${maven.multiModuleProjectDirectory}/checkstyle.xml</configLocation>
+                <configLocation>${maven.multiModuleProjectDirectory}/.mvn/checkstyle/checkstyle.xml</configLocation>
                 <consoleOutput>true</consoleOutput>
                 <encoding>UTF-8</encoding>
                 <failsOnError>true</failsOnError>
+                <!--suppress UnresolvedMavenProperty -->
+                <headerLocation>${maven.multiModuleProjectDirectory}/.mvn/checkstyle/license-header-java-groovy-kotlin-scala.txt</headerLocation>
                 <sourceDirectories>
                   <sourceDirectory>${project.build.sourceDirectory}</sourceDirectory>
                 </sourceDirectories>
                 <!--suppress UnresolvedMavenProperty -->
-                <suppressionsLocation>${maven.multiModuleProjectDirectory}/checkstyle-suppressions.xml</suppressionsLocation>
+                <suppressionsLocation>${maven.multiModuleProjectDirectory}/.mvn/checkstyle/suppressions.xml</suppressionsLocation>
                 <violationSeverity>info</violationSeverity>
               </configuration>
             </execution>

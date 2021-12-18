@@ -260,6 +260,11 @@
 
     <!-- Ashley Scopes: always require 'this' qualification to reduce ambiguity. -->
     <module name="RequireThis"/>
+  </module>
 
+  <!-- Ashley Scopes: ensure license headers are set -->
+  <module name="Header">
+    <property name="headerFile" value="${checkstyle.header.file}"/>
+    <property name="fileExtensions" value="java, groovy, kotlin, kts, Jenkinsfile, scala, gradle"/>
   </module>
 </module>
