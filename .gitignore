@@ -1,0 +1,47 @@
+# Maven
+.mvn/timing.properties
+buildNumber.properties
+dependency-reduced-pom.xml
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionBackup
+pom.xml.next
+release.properties
+target/
+
+# IntelliJ
+.idea/
+build/
+out/
+*.iml
+
+# Eclipse
+.loadpath
+.metadata
+.recommenders
+.settings/
+bin/
+local.properties
+tmp/
+
+# VSCode
+.history/
+.vscode/
+
+# NetBeans
+**/nbproject/
+dist/
+nbbuild/
+nbdist/
+
+# Binary files
+*.class
+*.jar
+
+# Junk
+*.DS_Store
+*.bak
+*~.nib
+*.swp
+*.swap
+desktop.ini
